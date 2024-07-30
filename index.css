@@ -48,7 +48,8 @@ button {
 
 
 
-/* header section */
+/* header section *******************************************************************************/
+
 .Header-section {
     max-width: 1480px;
     background-image: linear-gradient(black, #1b1b1b 50%, black);
@@ -113,7 +114,7 @@ button {
 
 
 
-/* banner section  */
+/* banner section ********************************************************************** */
 
 .banner {
     margin-top: 50px;
@@ -180,7 +181,7 @@ button {
 }
 
 
-/* habits container */
+/* habits container *****************************************************************************/
 
 
 
@@ -207,9 +208,10 @@ button {
 
 .habits-cart img {
     border-radius: 50%;
+    width: 250px;
 }
 
-/* run-extramile-container */
+/* run-extramile-container ***********************************************************************************/
 
 .run-extramile-container {
 
@@ -243,7 +245,7 @@ button {
     border-radius: 10px;
 }
 
-/* bmi calculator chart section style */
+/* bmi calculator chart section style *******************************************************************/
 
 .bmi-container {
     margin-top: 30px;
@@ -340,10 +342,9 @@ td {
 
 
 
-/* our-team-container css style */
+/* our-team-container css style *************************************************************************************/
 
 .our-team-container {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 600px;
@@ -379,7 +380,7 @@ td {
     height: 100%;
 }
 
-/* packages section style */
+/* packages section style  *****************************************************************************************/
 
 .packages-section {
 
@@ -442,7 +443,7 @@ td {
 
 }
 
-/* footer section style */
+/* footer section style ************************************************************************************************/
 
 footer {
     background-color: #1a1919;
@@ -503,7 +504,7 @@ footer {
     color: rgb(105, 105, 105);
 }
 
-/* responsive css styles */
+/* responsive css styles ***********************************************************************************************************/
 
 @media screen and (max-width:576px) {
     .nav-link {
@@ -560,7 +561,7 @@ footer {
     }
 
     .our-team-container {
-        border: 1px solid blue;
+
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         height: 1400px;
