@@ -185,31 +185,37 @@ button {
 
 
 
+.habit-cart h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.habit-cart p {
+    color: gray;
+}
+
+.habit-cart img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.habit-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .habit-cart-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.habits-cart p {
-    color: rgb(105, 105, 105);
-}
-
-.habits-cart {
-
-    width: 379px;
-    margin-top: 40px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 50px;
 }
 
-.habits-cart img {
-    border-radius: 50%;
-    width: 250px;
-}
+
 
 /* run-extramile-container ***********************************************************************************/
 
@@ -563,12 +569,15 @@ footer {
     }
 
     .our-team-container {
-
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         height: 1400px;
         gap: 15px;
         margin-top: 30px;
+    }
+
+    .team-cart {
+        margin-top: 20px;
     }
 
     .footer-container {
@@ -661,6 +670,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 40px;
+    }
+
+    .packages {
+        margin-top: 20px;
     }
 
     .download-btn {
